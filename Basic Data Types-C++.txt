@@ -1,0 +1,42 @@
+-------------------Discussion forum code ----------------------------
+
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int a; long b; char c; float d; double e;
+    cin>>a>>b>>c>>d>>e;
+    cout<<a<<"\n"<<b<<"\n"<<c<<"\n";
+    cout<<fixed<<setprecision(3)<<d<<"\n";
+    cout<<fixed<<setprecision(9)<<e<<"\n";
+    return 0;
+}
+
+
+//And if you want same speed as printf and scanf add these two lines in main just before variable declaration
+
+ios_base::sync_with_stdio(false);
+cin.tie(NULL);
+
+// :: it is scope operator in c++ that which refers global scope
+
+------------------------My Code--------------------------------
+
+#include <iostream>
+#include <cstdio>
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    std::ios::sync_with_stdio(false);
+    cin.tie(NULL);
+
+    int a;long b;char e;float c;double d;
+    cin>>a>>b>>e>>c>>d;
+    cout<<a<<'\n'<<b<<'\n'<<e<<'\n';
+    cout<<std::fixed<<std::setprecision(3)<<c<<'\n';
+    cout<<std::fixed<<std::setprecision(9)<<d<<'\n';
+    return 0;
+}
+
+

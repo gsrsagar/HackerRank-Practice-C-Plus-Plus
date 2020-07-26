@@ -1,0 +1,15 @@
+----------------------For Loop My code-------------------
+
+
+int main() {
+    std::ios::sync_with_stdio(false);
+    cin.tie(NULL);
+    string chars[]={" ","one","two","three","four","five","six","seven","eight","nine"};
+    int n,m;
+    cin>>n>>m;
+    for(n;n<=m;n++)
+    {
+        cout <<((n<=9)?chars[n]:((n%2==0)?"even":"odd"))<<"\n";
+    }
+ 
+}
